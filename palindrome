@@ -3,7 +3,29 @@ function palindrom(str){
     
 }
 var isPalindrom=palindrom('madam')
+console.log(isPalindrom)function palindrom(str){
+   console.log(str.split(''))
+   var len=str.length;
+   var isPalindrom=false;
+   for(var i=0;i<len-1/2;i++){
+     
+       console.log(str[i]);
+       console.log(str[len-i-1]);
+       if(str[i]==str[len-i-1]){
+         isPalindrom=true; 
+       }
+       else{
+         isPalindrom=false; 
+       }
+   }
+   return isPalindrom; 
+}
+var isPalindrom=palindrom('madam')
 console.log(isPalindrom)
+
+
+
+
 
 
 
