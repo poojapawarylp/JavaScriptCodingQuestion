@@ -1,1 +1,9 @@
+function palindrom(str){
+    return str==str.split('').reverse().join('')
+    
+}
+var isPalindrom=palindrom('madam')
+console.log(isPalindrom)
+
+
 
